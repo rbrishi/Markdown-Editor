@@ -30,9 +30,9 @@ git clone https://github.com/rbrishi/Markdown-Editor.git
 
 cd Markdown-Editor
 
+```bash
 ### 2️⃣ Set Up the Backend  
 
-```bash
 cd server
 npm install
 node app.js
