@@ -27,10 +27,18 @@ Ensure you have the following installed before running the application:
 
 ```bash
 git clone https://github.com/rbrishi/Markdown-Editor.git
+
 cd Markdown-Editor
+
 ### 2️⃣ Set Up the Backend  
 
 ```bash
 cd server
 npm install
-npm start
+node app.js
+
+### 2️⃣ Set Up the Frontend
+cd client
+npm install
+npm run dev
+
