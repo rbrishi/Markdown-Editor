@@ -132,7 +132,8 @@ export default function App() {
 
         <div className="preview-section">
           <h3>
-            Preview {isLoading && <span className="loading">(Loading...)</span>}
+            Live Preview{" "}
+            {isLoading && <span className="loading">(Loading...)</span>}
           </h3>
           <div
             className="preview-content"
